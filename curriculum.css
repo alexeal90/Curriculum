@@ -1,0 +1,243 @@
+
+body{
+	height:100%;
+	background-image: url("images/fondo.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+	margin:0;
+    padding:0;
+}
+
+a{
+	position: absolute;
+	left: 45%;
+	top: 40%;
+	text-decoration:none;
+	color:white;
+	overflow:hidden;
+	display:block;
+	margin:0.75em;
+}
+
+.button {
+	letter-spacing:.5em;
+	border-style:solid;
+	white-space: nowrap;
+	-webkit-transition: border-color 500ms ease, color 250ms ease;
+	-moz-transition: border-color 500ms ease, color 250ms ease;
+	-ms-transition: border-color 500ms ease, color 250ms ease;
+	-o-transition: border-color 500ms ease, color 250ms ease;
+	transition: border-color 500ms ease, color 250ms ease;
+}
+
+.button:before,
+.button:after {
+	border-style:solid;
+	border-width:0;
+	-webkit-transition: border-color 500ms ease;
+	-moz-transition: border-color 500ms ease;
+	-ms-transition: border-color 500ms ease;
+	-o-transition: border-color 500ms ease;
+	transition: border-color 500ms ease;
+}
+
+.diamond {
+	border-width:2px 0;
+	position:relative;
+	display:block;
+	padding:0.75em 0 0.75em 0.5em;
+	margin-left:1.6em;
+	margin-right:1.6em;
+}
+
+.diamond:before {
+	content: "";
+	display:inline-block;
+	border-bottom-width:2px;
+	border-left-width:2px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-transform-origin: 0% 100%;
+	-moz-transform-origin: 0% 100%;
+	-ms-transform-origin: 0% 100%;
+	-o-transform-origin: 0% 100%;
+	transform-origin: 0% 100%;
+	position:absolute;
+	top:-50%;
+	bottom:50%;
+	left:-1.55em;
+	right:0;
+}
+
+.diamond:after {
+	content: "";
+	display:inline-block;
+	border-bottom-width:2px;
+	border-right-width:2px;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-webkit-transform-origin: 100% 100%;
+	-moz-transform-origin: 100% 100%;
+	-ms-transform-origin: 100% 100%;
+	-o-transform-origin: 100% 100%;
+	transform-origin: 100% 100%;
+	position:absolute;
+	top:-50%;
+	bottom:50%;
+	left:0;
+	right:-1.55em;
+}
+
+#superior{
+	position: absolute;
+	top: 0;
+	height: 50%;
+    background-image: url("images/esmerilado.jpg");
+    background-size: 100% 250%;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid white;
+    opacity: 0.97;
+}
+
+#inferior{
+	position: absolute;
+	bottom: 0;
+	height: 50%;
+	background-image: url("images/esmerilado.jpg");
+    background-size: 100% 250%;
+	background-repeat: no-repeat;
+    border-top: 2px solid white;
+	opacity: 0.5;
+}
+
+#cv{
+	position: absolute;
+	width: 90%;
+	height: 100%;
+	left: 5%;
+    background-color: rgba(25, 25, 25, 0.85);
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    -webkit-box-shadow: 0px 0px 10px 7px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px 7px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px 7px rgba(0,0,0,0.75);
+}
+
+#menu{
+	height: 100%;
+}
+
+#marco{
+	height: 35%;
+	border-right: 4px solid black;
+}
+
+#apartados{
+	height: 40%;
+	border-right: 4px solid transparent;
+    -moz-border-image: -moz-linear-gradient(top, black 0%, #1e1e1e 100%);
+    -webkit-border-image: -webkit-linear-gradient(top, black 0%, #1e1e1e 100%);
+    -o-border-image: -webkit-linear-gradient(top, black 0%, #1e1e1e 100%);
+    border-image: linear-gradient(to bottom, black 0%, #1e1e1e 100%);
+    border-image-slice: 1;
+}
+
+#foto{
+	top: 15%;
+	border-radius: 10%;
+	-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.6, transparent), to(rgba(0,0,0,0.1)));
+}
+
+#botones{
+	top: 15%;
+}
+
+#links{
+	height: 17%;
+}
+
+.button-menu{
+	color: grey;
+	height: 15%;
+	background: transparent;
+	border: transparent;
+	outline:0px;
+}
+
+.button-menu:hover{
+	color: white;
+}
+
+.activo{
+	color: white;
+	outline:0px;
+	border-color: transparent;
+}
+
+.button-link{
+	height: 40%;
+}
+
+#header{
+	height: 25%;
+	overflow: hidden;
+}
+
+#headerText{
+	top: 30%;
+	font-family: Book Antiqua;
+	color: #71d1ff;
+	text-indent: 4%;
+	font-size: 500%;
+}
+
+#contenido{
+	height: 75%;
+}
+
+.content{
+	top: 20%;
+	color: #71d1ff;
+}
+
+td{
+	height: 50;
+	border-top: 1px solid black;
+	
+}
+
+.categoria{
+	font-size: 120%;
+	color:#94D4F2;
+	width: 45%;
+}
+
+.dato{
+	font-size: 120%;
+	color:white;
+}
+
+.descripcion{
+	height: 55;
+	font-size: 120%;
+	color:white;
+	border-top: 0px solid black;
+}
+
+.categoria2{
+	font-size: 110%;
+	color:#94D4F2;
+	width: 35%;
+	padding-left: 2%;
+}
+
+.dato2{
+	font-size: 110%;
+	color:white;
+}

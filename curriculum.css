@@ -120,7 +120,7 @@ a{
 }
 
 #cv{
-	position: absolute;
+	position: relative;
 	height: 100%;
     background-color: rgba(25, 25, 25, 0.85);
     border-left: 4px solid black;

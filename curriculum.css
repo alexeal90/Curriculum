@@ -118,9 +118,7 @@ a{
 
 #cv{
 	position: absolute;
-	width: 90%;
 	height: 100%;
-	left: 5%;
     background-color: rgba(25, 25, 25, 0.85);
     border-left: 4px solid black;
     border-right: 4px solid black;

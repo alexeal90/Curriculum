@@ -108,7 +108,7 @@ a{
 }
 
 #inferior{
-	position: relative;
+	position: absolute;
 	bottom: 0;
 	height: 50%;
 	background-image: url("images/esmerilado.jpg");

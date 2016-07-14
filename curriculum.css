@@ -103,10 +103,7 @@ a{
     background-size: 100% 250%;
     background-repeat: no-repeat;
     border-bottom: 2px solid white;
-    filter: alpha(opacity=97);
-    -moz-opacity: 0.97;
-    -khtml-opacity: 0.97;
-    opacity: 0.97;
+    
     z-index: 2;
 }
 
@@ -118,10 +115,7 @@ a{
     background-size: 100% 250%;
 	background-repeat: no-repeat;
     border-top: 2px solid white;
-    filter: alpha(opacity=50);
-    -moz-opacity: 0.5;
-    -khtml-opacity: 0.5;
-	opacity: 0.5;
+
 	z-index: 2;
 }
 

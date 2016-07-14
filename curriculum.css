@@ -103,7 +103,7 @@ a{
     background-size: 100% 250%;
     background-repeat: no-repeat;
     border-bottom: 2px solid white;
-    
+    opacity: 0.97;
     z-index: 2;
 }
 
@@ -115,12 +115,12 @@ a{
     background-size: 100% 250%;
 	background-repeat: no-repeat;
     border-top: 2px solid white;
-
+	opacity: 0.5;
 	z-index: 2;
 }
 
 #cv{
-	position: absolute;
+	position: relative;
 	height: 100%;
     background-color: rgba(25, 25, 25, 0.85);
     border-left: 4px solid black;
